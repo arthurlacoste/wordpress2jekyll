@@ -1,0 +1,48 @@
+{
+  "name": "wordpress2jekyll",
+  "version": "1.0.0",
+  "description": "Convert Wordpress blog to Jekyll format.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node cli test/wordpress-export.xml ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurlacoste/wordpress2jekyll.git"
+  },
+  "bin": {
+    "wp2jekyll": "cli.js"
+  },
+  "keywords": [
+    "wordpress",
+    "jekyll",
+    "staticman",
+    "export",
+    "import",
+    "tool",
+    "cli",
+    "convert",
+    "comments",
+    "comment"
+  ],
+  "author": "Arthur Lacoste <arthak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurlacoste/wordpress2jekyll/issues"
+  },
+  "homepage": "https://github.com/arthurlacoste/wordpress2jekyll#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "replace-in-file": "^3.0.0"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "dateformat": "^3.0.2",
+    "js-yaml": "^3.10.0",
+    "request": "^2.83.0",
+    "slugme": "^1.1.1",
+    "to-markdown": "^3.1.0",
+    "wordpress-comments-jekyll-staticman": "*",
+    "xml2js": "^0.4.19"
+  }
+}
